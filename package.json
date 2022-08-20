@@ -1,0 +1,18 @@
+{
+  "name": "charts",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build --base=/charts/",
+    "preview": "vite preview",
+    "docs": "typedoc --entryPointStrategy expand ./src"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "typedoc": "^0.23.10",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7"
+  }
+}
